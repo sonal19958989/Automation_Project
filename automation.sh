@@ -24,3 +24,4 @@ if [[ ! -e /var/www/html/inventory.html ]]; then
 fi
 
 echo "httpd-logs                ${timestamp}            ${filetype}             ${size}" >> /var/www/html/inventory.html
+
